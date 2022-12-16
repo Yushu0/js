@@ -2,13 +2,6 @@
 
 // hint: you can change the style of an element by modifying the value of that element's .style.fontSize, or by updating its .classList.
 
-/*const formElement = document.querySelector('#contact-page');
-
-formElement.onsubmit = function(e){
-    e.preventDefault();
-    formElement.classList.add('submitContact');
-    formElement.innerHTML = '<h2>Thank you for your message!</h2>';
-};*/
 const formElement = document.querySelector('#contact-page');
 
 formElement.onsubmit = function(e) {
